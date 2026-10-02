@@ -1,16 +1,112 @@
-# React + Vite
+# 🛒 MERN E-Commerce Website - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **E-Commerce frontend application** built using **React.js and Vite**.
 
-Currently, two official plugins are available:
+This project is the frontend part of a full-stack MERN E-Commerce application. It communicates with a Node.js and Express.js backend and provides users with an online shopping experience including product browsing, cart management, authentication, checkout, and payment integration.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## React Compiler
+👉 https://mern-e-commerce-frontend-website.vercel.app/
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## 🔗 Backend Repository
 
-## Expanding the ESLint configuration
+👉 https://github.com/Onkarbirangal/Mern-E-Commerce-Website
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+# ✨ Features
+
+## 👤 User Features
+
+- User registration
+- User login
+- User authentication
+- Browse products
+- Product listing
+- Product details
+- Search products
+- Add products to cart
+- Remove products from cart
+- Update product quantity
+- Shopping cart
+- Checkout
+- Order placement
+- Payment integration
+- Responsive user interface
+
+## 💳 Payment
+
+- Razorpay payment gateway integration
+- Online payment flow
+- Payment processing through backend APIs
+
+## 🛍️ E-Commerce Features
+
+- Product browsing
+- Product details
+- Shopping cart
+- Quantity management
+- Checkout
+- Order management
+- User authentication
+- API integration
+
+---
+
+# 🛠️ Technologies Used
+
+## Frontend
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+
+## Backend
+
+- Node.js
+- Express.js
+- REST API
+
+## Database
+
+- MongoDB
+
+## Payment
+
+- Razorpay
+
+## Tools
+
+- Git
+- GitHub
+- VS Code
+- Postman
+- Vercel
+
+---
+
+# 📁 Project Structure
+
+```text
+Mern-E-Commerce-Frontend_Website/
+│
+├── public/
+│   └── assets/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── ...
+│
+├── .gitignore
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
